@@ -1,0 +1,31 @@
+{
+  "categories": [
+    {
+      "title": "Billedoptimering",
+      "slug": "image-optimization",
+      "issues": [
+        {
+          "id": "large-images",
+          "issue": "Store billeder uden komprimering",
+          "consequence": "Langsommere loadtid og dårligere PageSpeed score"
+        },
+        {
+          "id": "no-webp",
+          "issue": "Billeder bruger ikke WebP eller AVIF",
+          "consequence": "Unødvendigt store filstørrelser"
+        }
+      ]
+    },
+    {
+      "title": "Javascript & CSS",
+      "slug": "javascript-css",
+      "issues": [
+        {
+          "id": "unused-css",
+          "issue": "Unused CSS",
+          "consequence": "Øger filstørrelse og gør siden langsommere"
+        }
+      ]
+    }
+  ]
+}
