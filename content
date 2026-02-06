@@ -11,10 +11,10 @@
           "consequence": "High JavaScript execution time can significantly delay the loading and interactivity of your website. When JavaScript takes too long to run, it may lead to a poor user experience, causing visitors to leave before the page fully loads. For this reason, JavaScript should be optimized, and unnecessary scripts reduced."
         },
         {
-          "id": "MANGLER",
-          "issue": "Unused Javascript and high main-thread work",
+          "id": "unused-javascript",
+          "issue": "Unused Javascript",
           "trigger": 0.9,
-          "consequence": "Both unused JavaScript and high main-thread activity negatively impact performance. Downloading and parsing unused code wastes bandwidth and initial processing time, while heavy main-thread work (often from excessive script execution) blocks the browser, making the page unresponsive to user input. This directly harms interactivity metrics like Interaction to Next Paint (INP), leads to a poor user experience, and negatively affects Core Web Vitals scores, potentially impacting search rankings."
+          "consequence": "Unused JavaScript negatively impact performance. Downloading and parsing unused code wastes bandwidth and initial processing time, making the page unresponsive to user input. This directly harms interactivity metrics like Interaction to Next Paint (INP), leads to a poor user experience, and negatively affects Core Web Vitals scores, potentially impacting search rankings."
         },
         {
           "id": "mainthread-work-breakdown",
@@ -27,12 +27,6 @@
           "issue": "Unused and unoptimized CSS",
           "trigger": 0.9,
           "consequence": "Unused and unoptimized CSS files can slow down page load times, increasing the page's overall size and reducing performance. This negatively impacts user experience and SEO rankings, as search engines prioritize fast-loading, efficient websites. Reducing unnecessary code can improve load times, boost performance scores, and contribute to better overall user engagement."
-        },
-        {
-          "id": "unused-javascript",
-          "issue": "Unused and unoptimized JS",
-          "trigger": 0.9,
-          "consequence": "Unused and unoptimized JavaScript files can slow down page load times, increasing the page's overall size and reducing performance. This negatively impacts user experience and SEO rankings, as search engines prioritize fast-loading, efficient websites. Reducing unnecessary code can improve load times, boost performance scores, and contribute to better overall user engagement."
         }
       ]
     },
@@ -65,10 +59,16 @@
           "consequence": "By forcing the browser to download all images at once, including those not yet in the user's viewport, the page's total weight increases, wasting bandwidth and resources, particularly for users on mobile or slow connections. This inefficiency directly harms key Core Web Vitals, such as Largest Contentful Paint (LCP) and Interaction to Next Paint (INP), as the browser is tied up with non-critical assets. Since these metrics are crucial for search engine rankings, this can lead to lower visibility in search results."
         },
         {
-          "id": "img3",
+          "id": "lcp-discovery-fetchpriority",
           "issue": "Banner image does not have fetchpriority",
           "trigger": 0.9,
           "consequence": "On the website, banner images do not have any fetchpriority, making a missed opportunity for better core web vitals (LCP score). Since these metrics are crucial for search engine rankings, this can lead to lower visibility in search results."
+        },
+        {
+          "id": "lcp-discovery-eager",
+          "issue": "Banner image does not have fetchpriority",
+          "trigger": 0.9,
+          "consequence": "On the website, banner images does not have a loading eager property, making a missed opportunity for better core web vitals (LCP score). Since these metrics are crucial for search engine rankings, this can lead to lower visibility in search results."
         },
         {
           "id": "img4",
