@@ -66,7 +66,7 @@
         },
         {
           "id": "lcp-discovery-eager",
-          "issue": "Banner image does not have fetchpriority",
+          "issue": "Banner image does not have loading set to eager",
           "trigger": 0.9,
           "consequence": "On the website, banner images does not have a loading eager property, making a missed opportunity for better core web vitals (LCP score). Since these metrics are crucial for search engine rankings, this can lead to lower visibility in search results."
         },
