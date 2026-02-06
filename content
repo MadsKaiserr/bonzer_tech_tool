@@ -1,29 +1,97 @@
 {
   "categories": [
     {
-      "title": "Billedoptimering",
-      "slug": "image-optimization",
-      "issues": [
-        {
-          "id": "large-images",
-          "issue": "Store billeder uden komprimering",
-          "consequence": "Langsommere loadtid og dårligere PageSpeed score"
-        },
-        {
-          "id": "no-webp",
-          "issue": "Billeder bruger ikke WebP eller AVIF",
-          "consequence": "Unødvendigt store filstørrelser"
-        }
-      ]
-    },
-    {
       "title": "Javascript & CSS",
       "slug": "javascript-css",
       "issues": [
         {
-          "id": "unused-css",
-          "issue": "Unused CSS",
-          "consequence": "Øger filstørrelse og gør siden langsommere"
+          "id": "js1",
+          "issue": "High JavaScript execution time",
+          "consequence": "High JavaScript execution time can significantly delay the loading and interactivity of your website. When JavaScript takes too long to run, it may lead to a poor user experience, causing visitors to leave before the page fully loads. For this reason, JavaScript should be optimized, and unnecessary scripts reduced."
+        },
+        {
+          "id": "js2",
+          "issue": "Unused Javascript and high main-thread work",
+          "consequence": "Both unused JavaScript and high main-thread activity negatively impact performance. Downloading and parsing unused code wastes bandwidth and initial processing time, while heavy main-thread work (often from excessive script execution) blocks the browser, making the page unresponsive to user input. This directly harms interactivity metrics like Interaction to Next Paint (INP), leads to a poor user experience, and negatively affects Core Web Vitals scores, potentially impacting search rankings."
+        },
+        {
+          "id": "js3",
+          "issue": "Excessive Main-Thread Work",
+          "consequence": "Heavy main-thread activity can delay user interactions, making the page feel unresponsive. This impacts user experience and can increase bounce rates. Optimizing main-thread work improves interactivity, user satisfaction, and search engine rankings, as responsiveness is a key factor in page performance metrics."
+        },
+        {
+          "id": "js4",
+          "issue": "Unused and unoptimized JS and CSS",
+          "consequence": "Unused and unoptimized JavaScript and CSS files can slow down page load times, increasing the page's overall size and reducing performance. This negatively impacts user experience and SEO rankings, as search engines prioritize fast-loading, efficient websites. Reducing unnecessary code can improve load times, boost performance scores, and contribute to better overall user engagement."
+        }
+      ]
+    },
+    {
+      "title": "Core Web Vitals",
+      "slug": "core-web-vitals",
+      "issues": [
+        {
+          "id": "lcp1",
+          "issue": "Long Largest Contentful Paint (LCP), LCP was lazily loaded",
+          "consequence": "A long Largest Contentful Paint (LCP) time, especially when LCP elements are lazily loaded, negatively impacts user experience, as visitors may perceive the page as slow to load. This can lead to higher bounce rates and lower engagement. Since LCP is a critical ranking factor for Google, a high LCP can also harm search rankings and SEO performance. Optimizing LCP helps improve both user satisfaction and SEO."
+        }
+      ]
+    },
+    {
+      "title": "Images",
+      "slug": "images",
+      "issues": [
+        {
+          "id": "img1",
+          "issue": "Images are often large (>100kb) and displayed in outdated formats such as jpg, jpeg, and png.",
+          "consequence": "Large images in outdated formats slow down the page, leading to higher bounce rates and lower engagement. While a single large image may not significantly impact performance, having multiple images that exceed size guidelines can create a snowball effect, further hindering page speed and user experience."
+        },
+        {
+          "id": "img2",
+          "issue": "Images below the fold are not lazy loaded",
+          "consequence": "By forcing the browser to download all images at once, including those not yet in the user's viewport, the page's total weight increases, wasting bandwidth and resources, particularly for users on mobile or slow connections. This inefficiency directly harms key Core Web Vitals, such as Largest Contentful Paint (LCP) and Interaction to Next Paint (INP), as the browser is tied up with non-critical assets. Since these metrics are crucial for search engine rankings, this can lead to lower visibility in search results."
+        },
+        {
+          "id": "img3",
+          "issue": "Banner image does not have fetchpriority",
+          "consequence": "On the website, banner images do not have any fetchpriority, making a missed opportunity for better core web vitals (LCP score). Since these metrics are crucial for search engine rankings, this can lead to lower visibility in search results."
+        },
+        {
+          "id": "img4",
+          "issue": "Improperly sized images",
+          "consequence": "Oversized images slow down page loading times, especially on cellular connections. Slow load times can cause higher bounce rates and a negative user experience, which results in lower rankings."
+        }
+      ]
+    },
+    {
+      "title": "DOM & Render",
+      "slug": "dom-render",
+      "issues": [
+        {
+          "id": "dom1",
+          "issue": "Excessive DOM size",
+          "consequence": "This error indicates that a webpage contains too many HTML elements (often over 1,500 nodes or deep nesting). This can negatively impact performance because browsers take longer to process and render large DOM trees. It can also lead to slower JavaScript execution, memory usage issues, and degraded user experience. Optimizing your DOM structure by removing unnecessary elements, flattening nested elements, and improving code cleanliness can enhance loading times and responsiveness."
+        },
+        {
+          "id": "dom2",
+          "issue": "Render-blocking Resources",
+          "consequence": "Render-blocking resources delay the rendering of page content. When these resources prevent the browser from displaying the page immediately, it can lead to longer loading times and a poor user experience. This can also negatively affect SEO, as search engines may perceive slow-loading pages as lower quality."
+        }
+      ]
+    },
+    {
+      "title": "Caching",
+      "slug": "caching",
+      "issues": [
+        {
+          "id": "cache1",
+          "issue": "Inefficient/Short Cache Policy for Static Assets",
+          "consequence": "Serving static assets like images (.webp, .png, .jpg) with short cache lifetime forces browsers to re-download these potentially large files often, even for returning users. This significantly increases page load times, consumes unnecessary bandwidth, and harms the user experience, especially on repeat visits. From an SEO perspective, this negatively impacts key performance metrics (including LCP) which are ranking factors, and signals inefficient resource management to search engines."
+        },
+        {
+          "id": "cache2",
+          "issue": "Inefficient/Short Cache Policy for Static Assets",
+          "consequence": "Serving static assets like images (.webp, .png, .jpg) with no cache lifetime forces browsers to re-download these potentially large files on every visit, even for returning users. This significantly increases page load times, consumes unnecessary bandwidth, and harms the user experience, especially on repeat visits. From an SEO perspective, this negatively impacts key performance metrics (including LCP) which are ranking factors, and signals inefficient resource management to search engines."
         }
       ]
     }
