@@ -39,6 +39,12 @@
           "issue": "Long Largest Contentful Paint (LCP)",
           "trigger": 0.9,
           "consequence": "A long Largest Contentful Paint (LCP) time, negatively impacts user experience, as visitors may perceive the page as slow to load. This can lead to higher bounce rates and lower engagement. Since LCP is a critical ranking factor for Google, a high LCP can also harm search rankings and SEO performance. Optimizing LCP helps improve both user satisfaction and SEO."
+        },
+        {
+          "id": "c66a07c4-3f0a-4b23-82f7-9aa8072356bc",
+          "issue": "Test issue",
+          "trigger": 0.9,
+          "consequence": "test konsekvens"
         }
       ]
     },
