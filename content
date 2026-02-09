@@ -78,6 +78,13 @@
           "issue": "Improperly sized images",
           "trigger": 0.9,
           "consequence": "Oversized images slow down page loading times, especially on cellular connections. Slow load times can cause higher bounce rates and a negative user experience, which results in lower rankings."
+        },
+        {
+          "id": "5e5e03d5-9f77-40c1-b0af-aab19218cfea",
+          "psi_id": "lcp-images-oldformats",
+          "issue": "Images displayed in outdated formats such as jpg, jpeg, and png.",
+          "trigger": 0.9,
+          "consequence": "Large images in outdated formats slow down the page, leading to higher bounce rates and lower engagement. While a single large image may not significantly impact performance, having multiple images that exceed size guidelines can create a snowball effect, further hindering page speed and user experience."
         }
       ]
     },
