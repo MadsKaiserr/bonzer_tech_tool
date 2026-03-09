@@ -53,7 +53,7 @@
       "issues": [
         {
           "id": "images-2",
-          "psi_id": "img2",
+          "psi_id": "lazyloaded-images",
           "issue": "Images below the fold are not lazy loaded",
           "trigger": 0.9,
           "consequence": "By forcing the browser to download all images at once, including those not yet in the user's viewport, the page's total weight increases, wasting bandwidth and resources, particularly for users on mobile or slow connections. This inefficiency directly harms key Core Web Vitals, such as Largest Contentful Paint (LCP) and Interaction to Next Paint (INP), as the browser is tied up with non-critical assets. Since these metrics are crucial for search engine rankings, this can lead to lower visibility in search results."
