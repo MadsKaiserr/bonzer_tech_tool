@@ -15,9 +15,7 @@
           "consequence": "Linking internally to non-canonical HTTP URLs can confuse search engines, weaken canonical signals, and cause unnecessary redirects. This may lead to inefficient crawling, diluted link equity, and slower page loading, ultimately having a negative impact on SEO performance and user experience."
         }
       ]
-    }
-  ],
-"categories": [
+    },
     {
       "title": "Status på sider",
       "slug": "status",
