@@ -15,6 +15,22 @@
           "consequence": "Linking internally to non-canonical HTTP URLs can confuse search engines, weaken canonical signals, and cause unnecessary redirects. This may lead to inefficient crawling, diluted link equity, and slower page loading, ultimately having a negative impact on SEO performance and user experience."
         }
       ]
+    },
+{
+      "title": "Status på sider",
+      "slug": "status",
+      "issues": [
+        {
+          "id": "orphan-pages",
+          "issue": "The website has some orphan pages",
+          "consequence": "Orphan pages are difficult for search engines and users to discover, limiting their ranking potential."
+        },
+        {
+          "id": "4xx-pages",
+          "issue": "The website has some 4XX pages",
+          "consequence": "Having 4xx error pages, such as the common 404 "Not Found," creates a broken experience that harms both user trust and SEO performance. For users, these dead ends cause frustration and often lead them to leave your site. For search engines, they result in wasted crawl budget and a loss of valuable link equity from any links pointing to the dead page, which can weaken your site's overall authority. It is crucial to fix these issues by regularly implementing 301 redirects for content that has moved permanently and removing any internal links that point to pages that have been deleted for good."
+        }
+      ]
     }
   ]
 }
