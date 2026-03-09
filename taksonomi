@@ -2,7 +2,7 @@
   "categories": [
     {
       "title": "Content",
-      "slug": "sf-content",
+      "slug": "content",
       "issues": [
         {
           "id": "h1-missing",
