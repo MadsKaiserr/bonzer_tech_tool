@@ -45,6 +45,11 @@
           "id": "998ca9b3-d40c-4928-9071-4b61b07d93e1",
           "issue": "Pagination is implemented as infinite scroll.",
           "consequence": "Search engines may struggle to crawl and index all content, as infinite scroll can prevent proper pagination signals. This can lead to reduced visibility for deeper pages, poor user experience for those needing direct access to specific content, and potential accessibility issues."
+        },
+        {
+          "id": "d1135f01-34b1-4969-9604-6fde271fd5fd",
+          "issue": "Pagination is handled by a JavaScript \"load more\" button instead of standard, crawlable <a href> links",
+          "consequence": "Without crawlable links, search engines cannot discover or index content beyond the first page, making those items invisible in search results. This severely limits the organic reach of any products or articles loaded by the button. Additionally, it creates a poor user experience, as users are unable to bookmark, share, or navigate directly to a specific page of content, and it can cause accessibility issues for users relying on assistive technologies."
         }
       ]
     }
