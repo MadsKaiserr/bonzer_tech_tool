@@ -73,6 +73,12 @@
           "consequence": "4xx pages in the sitemap send a confusing signal to search engines, asking them to crawl and index “dead” or forbidden pages. This can result in indexability issues on your website."
         }
       ]
+    },
+    {
+      "title": "Hreflang",
+      "slug": "hreflang",
+      "issues": [
+      ]
     }
   ]
 }
