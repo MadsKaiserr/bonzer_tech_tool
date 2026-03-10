@@ -22,8 +22,8 @@
       ]
     },
     {
-      "title": "Status på sider",
-      "slug": "status",
+      "title": "Struktur",
+      "slug": "struktur",
       "issues": [
         {
           "id": "orphan-pages",
