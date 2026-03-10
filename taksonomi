@@ -31,9 +31,9 @@
           "consequence": "Having 4xx error pages, such as the common 404 Not Found, creates a broken experience that harms both user trust and SEO performance. For users, these dead ends cause frustration and often lead them to leave your site. For search engines, they result in wasted crawl budget and a loss of valuable link equity from any links pointing to the dead page, which can weaken your sites overall authority. It is crucial to fix these issues by regularly implementing 301 redirects for content that has moved permanently and removing any internal links that point to pages that have been deleted for good."
         },
         {
-          "id": "0a324b7c-dd49-4d89-bff1-be0f4cb692ff",
-          "issue": "Many pages have invalid elements in the <head> tag",
-          "consequence": "When a browser encounters a visible element (like a <div> or <img>) in the head, its error-correction process may prematurely close the <head> and start rendering the <body>. Consequently, any critical tags that appear after the invalid element—such as the <title>, <meta description>, canonical links, or crucial stylesheets—may be ignored or misinterpreted. This can lead to your site appearing without a title in browser tabs, showing incorrect descriptions in search results, facing duplicate content penalties etc."
+          "id": "22db2b82-b695-4c4e-95c1-6cf95654022d",
+          "issue": "Pages are missing meta descriptions",
+          "consequence": "Without a defined description, search engines are forced to auto-generate a snippet by scraping random text from the page—often resulting in disjointed sentences or irrelevant navigation text."
         }
       ]
     },
@@ -89,9 +89,9 @@
           "consequence": "Hreflang URLs must be crawlable and indexable and therefore non-200 URLs are treated as errors and ignored by search engines. Non-200 URLs, such as 404 (not found) or 301 (redirected) codes, signal to search engines that the content may not be valid. This misalignment can cause pages to rank incorrectly for different languages or regions, reducing visibility and potentially harming the site's overall SEO performance in target markets."
         },
         {
-          "id": "4de7d347-ae27-40ed-9eeb-50ab13a711dd",
-          "issue": "Site exists in multiple languages, but are missing hreflang tags",
-          "consequence": "Having no hreflang tags is a major issue when it comes to indexability for multi-lingual sites, as not having these, makes it likely that a site may get marked as spammy, since there are multiple pages with effectively the same content. Hreflang tags aside from this, also help promote an even distribution of link equity across translated pages in a group, and help search engines direct searchers to a page that fits their language or locale."
+          "id": "48827220-9e36-4aed-bd9a-2e1ba5b916c4",
+          "issue": "Missing return hreflang tags on some pages",
+          "consequence": "When return hreflang tags are missing, the primary consequence is that search engines like Google will ignore your hreflang instructions for the affected pages. The implementation must be reciprocal: if Page A (EN) points to Page B (DA), Page B must point back to Page A. Without this return link, Google cannot validate the relationship, often resulting in them showing the wrong language version to users in search results. This leads to a poor user experience and undermines the effectiveness of your international SEO strategy. "
         }
       ]
     }
