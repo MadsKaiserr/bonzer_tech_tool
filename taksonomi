@@ -49,6 +49,11 @@
           "id": "0c977858-6fce-4c37-af6f-af63c9b2a751",
           "issue": "Multiple <title> tags on many pages",
           "consequence": "This creates significant ambiguity for search engines and violates core HTML standards. When a crawler encounters multiple <title> tags, it is forced to guess which one is correct, and may end up ignoring all of them or choosing one unpredictably. This often results in Google auto-generating a title from the page's content, leading to a loss of control over the SERP snippet. The consequence is a poorly optimized or irrelevant title being displayed in search results, which can negatively impact click-through rates and weaken the page's primary keyword signals."
+        },
+        {
+          "id": "7d21b40f-c06d-41c2-82d8-5c427bdba645",
+          "issue": "Multiple meta descriptions on over half of the pages",
+          "consequence": "Having multiple meta description tags on a single page can confuse search engines, as they may not know which one to prioritize. This can lead to inconsistent or irrelevant snippets being shown in search results, potentially reducing click-through rates (CTR). It also violates best SEO practices and may signal poor code quality or improper CMS/plugin configurations. To ensure clarity and consistency, each page should have only one unique and well-crafted meta description that accurately summarizes the content."
         }
       ]
     },
