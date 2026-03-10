@@ -47,7 +47,7 @@
       "slug": "canonical",
       "issues": [
         {
-          "id": "77b7b6f6-5a5b-49b1-90bd-c7ed1cf91a0f",
+          "id": "c18309fc-de3b-43f7-bd76-63fcd656aa9a",
           "issue": "Missing Canonical URLs",
           "consequence": "Canonical URLs help search engines understand which version of a page is the primary one, preventing duplicate content issues. Without canonical tags, search engines may index multiple versions of the same page (e.g., with and without query parameters), diluting ranking signals and potentially leading to lower rankings. This can also result in inconsistent search appearances and reduce overall SEO effectiveness."
         }
