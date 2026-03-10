@@ -61,7 +61,13 @@
     {
       "title": "Sitemap",
       "slug": "sitemap",
-      "issues": []
+      "issues": [
+        {
+          "id": "3b15499d-5e55-4399-9622-eebf6daf4c4c",
+          "issue": "3xx redirects in the sitemap",
+          "consequence": "Sitemap must list all the pages you want search engines to crawl and index. Redirecting URLs in sitemaps can result in indexability issues on your website."
+        }
+      ]
     }
   ]
 }
