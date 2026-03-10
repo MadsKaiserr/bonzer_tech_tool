@@ -50,6 +50,11 @@
           "id": "d1135f01-34b1-4969-9604-6fde271fd5fd",
           "issue": "Pagination is handled by a JavaScript \"load more\" button instead of standard, crawlable <a href> links",
           "consequence": "Without crawlable links, search engines cannot discover or index content beyond the first page, making those items invisible in search results. This severely limits the organic reach of any products or articles loaded by the button. Additionally, it creates a poor user experience, as users are unable to bookmark, share, or navigate directly to a specific page of content, and it can cause accessibility issues for users relying on assistive technologies."
+        },
+        {
+          "id": "05fecebf-4409-4192-bef0-4f05b0930ea4",
+          "issue": "Paginated pages don’t have self-referencing canonical URLs",
+          "consequence": "Search engines may struggle to properly index paginated content, potentially leading to duplicate content issues or incorrect ranking signals. Without self-referencing canonical tags, paginated pages might be considered separate competing URLs rather than a cohesive series, which can dilute their SEO value. This could result in lower visibility in search results, as search engines may choose the wrong version to index or consolidate ranking signals incorrectly. Ultimately, this can negatively impact user experience and reduce organic traffic to the website."
         }
       ]
     }
