@@ -57,6 +57,11 @@
           "consequence": "Search engines may struggle to properly index paginated content, potentially leading to duplicate content issues or incorrect ranking signals. Without self-referencing canonical tags, paginated pages might be considered separate competing URLs rather than a cohesive series, which can dilute their SEO value. This could result in lower visibility in search results, as search engines may choose the wrong version to index or consolidate ranking signals incorrectly. Ultimately, this can negatively impact user experience and reduce organic traffic to the website."
         }
       ]
+    },
+    {
+      "title": "Sitemap",
+      "slug": "sitemap",
+      "issues": []
     }
   ]
 }
