@@ -81,6 +81,11 @@
           "id": "179c3b57-5670-4134-b995-41e44a371148",
           "issue": "4XX page in sitemap",
           "consequence": "4xx pages in the sitemap send a confusing signal to search engines, asking them to crawl and index “dead” or forbidden pages. This can result in indexability issues on your website."
+        },
+        {
+          "id": "30ceb3a4-d761-4183-849b-2f8822408249",
+          "issue": "Pages with a noindex meta tag are included in the sitemap.",
+          "consequence": "A sitemap is meant to guide search engines to crawl and index important pages, but a noindex meta tag instructs search engines not to index a page. This contradictory setup can confuse search engines, leading to inefficient crawling and potentially reduced visibility for your website."
         }
       ]
     },
