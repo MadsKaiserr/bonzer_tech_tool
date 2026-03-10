@@ -92,6 +92,11 @@
           "id": "48827220-9e36-4aed-bd9a-2e1ba5b916c4",
           "issue": "Missing return hreflang tags on some pages",
           "consequence": "When return hreflang tags are missing, the primary consequence is that search engines like Google will ignore your hreflang instructions for the affected pages. The implementation must be reciprocal: if Page A (EN) points to Page B (DA), Page B must point back to Page A. Without this return link, Google cannot validate the relationship, often resulting in them showing the wrong language version to users in search results. This leads to a poor user experience and undermines the effectiveness of your international SEO strategy. "
+        },
+        {
+          "id": "7e64808b-d89c-4cb1-a19e-a9376e14a3a0",
+          "issue": "Site exists in multiple languages, but are missing hreflang tags",
+          "consequence": "Having no hreflang tags is a major issue when it comes to indexability for multi-lingual sites, as not having these, makes it likely that a site may get marked as spammy, since there are multiple pages with effectively the same content. Hreflang tags aside from this, also help promote an even distribution of link equity across translated pages in a group, and help search engines direct searchers to a page that fits their language or locale."
         }
       ]
     }
