@@ -41,7 +41,7 @@
           "consequence": "Without a defined description, search engines are forced to auto-generate a snippet by scraping random text from the page—often resulting in disjointed sentences or irrelevant navigation text."
         },
         {
-          "id": "db01b1b2-c2b0-4e41-a932-af0f2514da32",
+          "id": "1d9c5896-aeab-469f-b70c-a7ee30ea8e85",
           "issue": "Many pages have meta robots tag “noindex”",
           "consequence": "Pages with a meta robots tag set to \"noindex\" are crawled by search engines but are not included in their index, meaning they will not appear in search results. While this can be useful for preventing low-value or duplicate content from being indexed, unintentional use of \"noindex\" on important pages can severely impact visibility and organic traffic."
         }
