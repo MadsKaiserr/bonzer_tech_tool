@@ -31,6 +31,18 @@
           "consequence": "Having 4xx error pages, such as the common 404 Not Found, creates a broken experience that harms both user trust and SEO performance. For users, these dead ends cause frustration and often lead them to leave your site. For search engines, they result in wasted crawl budget and a loss of valuable link equity from any links pointing to the dead page, which can weaken your sites overall authority. It is crucial to fix these issues by regularly implementing 301 redirects for content that has moved permanently and removing any internal links that point to pages that have been deleted for good."
         }
       ]
+    },
+    {
+      "title": "Canonical",
+      "slug": "canonical",
+      "issues": [
+      ]
+    },
+    {
+      "title": "Pagination",
+      "slug": "pagination",
+      "issues": [
+      ]
     }
   ]
 }
