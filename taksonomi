@@ -50,6 +50,11 @@
           "id": "c18309fc-de3b-43f7-bd76-63fcd656aa9a",
           "issue": "Missing Canonical URLs",
           "consequence": "Canonical URLs help search engines understand which version of a page is the primary one, preventing duplicate content issues. Without canonical tags, search engines may index multiple versions of the same page (e.g., with and without query parameters), diluting ranking signals and potentially leading to lower rankings. This can also result in inconsistent search appearances and reduce overall SEO effectiveness."
+        },
+        {
+          "id": "739b699f-ab2e-422d-8c78-6c65557df4df",
+          "issue": "Multiple canonical URLs",
+          "consequence": "When a page contains multiple canonical tags, search engines receive mixed signals about which version of the page should be treated as the primary one. This can lead to indexing errors, diluted ranking signals, and search engines ignoring the canonical instructions altogether. As a result, duplicate or incorrect versions of the page may appear in search results, negatively impacting SEO performance and consistency in search visibility."
         }
       ]
     },
