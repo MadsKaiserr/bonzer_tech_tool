@@ -66,6 +66,11 @@
           "id": "3b15499d-5e55-4399-9622-eebf6daf4c4c",
           "issue": "3xx redirects in the sitemap",
           "consequence": "Sitemap must list all the pages you want search engines to crawl and index. Redirecting URLs in sitemaps can result in indexability issues on your website."
+        },
+        {
+          "id": "179c3b57-5670-4134-b995-41e44a371148",
+          "issue": "4XX page in sitemap",
+          "consequence": "4xx pages in the sitemap send a confusing signal to search engines, asking them to crawl and index “dead” or forbidden pages. This can result in indexability issues on your website."
         }
       ]
     }
