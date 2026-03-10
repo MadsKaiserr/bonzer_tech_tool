@@ -78,6 +78,11 @@
       "title": "Hreflang",
       "slug": "hreflang",
       "issues": [
+        {
+          "id": "3f2bbc3a-ffd7-4a4d-aca7-8287e8597f7a",
+          "issue": "Hreflang contains URLs with non-200 response codes",
+          "consequence": "Hreflang URLs must be crawlable and indexable and therefore non-200 URLs are treated as errors and ignored by search engines. Non-200 URLs, such as 404 (not found) or 301 (redirected) codes, signal to search engines that the content may not be valid. This misalignment can cause pages to rank incorrectly for different languages or regions, reducing visibility and potentially harming the site's overall SEO performance in target markets."
+        }
       ]
     }
   ]
