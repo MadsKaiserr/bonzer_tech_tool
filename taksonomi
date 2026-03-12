@@ -135,6 +135,11 @@
           "consequence": "Having no hreflang tags is a major issue when it comes to indexability for multi-lingual sites, as not having these, makes it likely that a site may get marked as spammy, since there are multiple pages with effectively the same content. Hreflang tags aside from this, also help promote an even distribution of link equity across translated pages in a group, and help search engines direct searchers to a page that fits their language or locale."
         }
       ]
-    }
-  ]
+    },
+    {
+      "title": "Andet",
+      "slug": "andet",
+      "issues": [
+      ]
+    },
 }
