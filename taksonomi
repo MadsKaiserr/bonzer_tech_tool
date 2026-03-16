@@ -54,6 +54,11 @@
           "id": "7d21b40f-c06d-41c2-82d8-5c427bdba645",
           "issue": "Multiple meta descriptions on over half of the pages",
           "consequence": "Having multiple meta description tags on a single page can confuse search engines, as they may not know which one to prioritize. This can lead to inconsistent or irrelevant snippets being shown in search results, potentially reducing click-through rates (CTR). It also violates best SEO practices and may signal poor code quality or improper CMS/plugin configurations. To ensure clarity and consistency, each page should have only one unique and well-crafted meta description that accurately summarizes the content."
+        },
+        {
+          "id": "72e5d9d8-ea52-4752-b160-8bd8ae38b904",
+          "issue": "<div> element before the <head> tag",
+          "consequence": "There’s a <div> element outside of <body>, which renders above <head> on certain pages. Having a <div> element before the <head> tag is problematic because it breaks the proper document structure. The <head> tag should come before the <body> tag, which contains the content of the page. Placing a <div> outside the <body> can cause rendering issues and prevent search engines from properly indexing the page. It can also affect the page's performance, as search engines rely on a well-structured HTML to interpret the content effectively."
         }
       ]
     },
