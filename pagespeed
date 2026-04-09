@@ -111,7 +111,7 @@
           "psi_id": "render-blocking-insight",
           "issue": "Render-blocking Resources",
           "trigger": 0.9,
-          "consequence": "Render-blocking resources delay the rendering of page content. When these resources prevent the browser from displaying the page immediately, it can lead to longer loading times and a poor user experience. This can also negatively affect SEO, as search engines may perceive slow-loading pages as lower quality."
+          "consequence": "Render-blocking resources delay the rendering of page content. When these resources prevent the browser from displaying the page immediately, it can lead to longer loading times and a poor user experience."
         }
       ]
     },
