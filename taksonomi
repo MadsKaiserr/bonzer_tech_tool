@@ -32,7 +32,7 @@
         },
         {
           "id": "4xx-pages",
-          "issue": "The website has some 4XX pages",
+          "issue": "The website has 4XX pages",
           "consequence": "4xx errors, like 404 Not Found, damage user experience and SEO as they result in a dead-end for both users and crawlers. They frustrate users and waste search engine crawl budget, causing a loss of link equity and site authority."
         },
         {
