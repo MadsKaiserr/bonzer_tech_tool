@@ -84,7 +84,7 @@
           "psi_id": "lcp-images-oldformats",
           "issue": "Images displayed in outdated formats such as jpg, jpeg, and png.",
           "trigger": 0.9,
-          "consequence": "Large images in outdated formats slow down the page, leading to higher bounce rates and lower engagement. While a single large image may not significantly impact performance, having multiple images that exceed size guidelines can create a snowball effect, further hindering page speed and user experience."
+          "consequence": "Outdated, large-format images reduce page speed, increasing bounce rates and lowering engagement. Multiple oversized images have a cumulative, negative effect on performance and user experience."
         },
         {
           "id": "7ecade20-4155-40f3-b1cf-c69ec56a7f59",
