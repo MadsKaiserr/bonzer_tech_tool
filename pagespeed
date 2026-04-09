@@ -16,7 +16,7 @@
           "psi_id": "unused-javascript",
           "issue": "Unused Javascript",
           "trigger": 0.9,
-          "consequence": "Unused JavaScript negatively impact performance. Downloading and parsing unused code wastes bandwidth and initial processing time, making the page unresponsive to user input. This directly harms interactivity metrics like Interaction to Next Paint (INP), leads to a poor user experience, and negatively affects Core Web Vitals scores, potentially impacting search rankings."
+          "consequence": "Unused JavaScript severely harms performance, wasting bandwidth and processing time. This delayed processing directly impairs interactivity (INP), degrades user experience, negatively affects Core Web Vitals, and can lower search rankings."
         },
         {
           "id": "javascript-css-3",
