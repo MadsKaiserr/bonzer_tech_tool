@@ -7,7 +7,7 @@
         {
           "id": "h1-missing",
           "issue": "Missing H1-tag on some pages",
-          "consequence": "The H1 tag helps search engines understand the main topic of a page and is considered to be one of the stronger on-page ranking signals. Without it, search engines may struggle to correctly index and rank the content. A missing H1 can also negatively impact accessibility and user experience, potentially leading to lower engagement and search result rankings."
+          "consequence": "The H1 tag helps search engines understand the main topic of a page and is considered to be one of the stronger on-page ranking signals. Without it, search engines may struggle to correctly index and rank the content."
         },
         {
           "id": "http-links",
