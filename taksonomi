@@ -12,7 +12,7 @@
         {
           "id": "http-links",
           "issue": "Inlinks to canonicalised, insecure HTTP versions of pages, instead of HTTPS",
-          "consequence": "Linking internally to non-canonical HTTP URLs can confuse search engines, weaken canonical signals, and cause unnecessary redirects. This may lead to inefficient crawling, diluted link equity, and slower page loading, ultimately having a negative impact on SEO performance and user experience."
+          "consequence": "Linking internally to non-canonical HTTP URLs often causes unnecessary redirects. This may lead to inefficient crawling, diluted link equity, and slower page loading, both affecting SEO and user experience."
         },
         {
           "id": "3983af74-53a8-4217-b63e-0ff0153b4483",
