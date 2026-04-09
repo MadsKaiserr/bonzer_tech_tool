@@ -124,7 +124,7 @@
           "psi_id": "cache-insight",
           "issue": "Inefficient/Short Cache Policy for Static Assets",
           "trigger": 0.9,
-          "consequence": "Serving static assets like images (.webp, .png, .jpg) with short cache lifetime forces browsers to re-download these potentially large files often, even for returning users. This significantly increases page load times, consumes unnecessary bandwidth, and harms the user experience, especially on repeat visits. From an SEO perspective, this negatively impacts key performance metrics (including LCP) which are ranking factors, and signals inefficient resource management to search engines."
+          "consequence": "Short cache lifetimes for static assets (e.g., .webp, .png, .jpg) force frequent re-downloads, drastically increasing page load times, consuming bandwidth, and degrading user experience, especially for repeat visitors."
         }
       ]
     }
