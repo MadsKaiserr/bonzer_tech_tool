@@ -43,7 +43,7 @@
         {
           "id": "db01b1b2-c2b0-4e41-a932-af0f2514da32",
           "issue": "Many pages have meta robots tag “noindex”",
-          "consequence": "Pages with a meta robots tag set to \"noindex\" are crawled by search engines but are not included in their index, meaning they will not appear in search results. While this can be useful for preventing low-value or duplicate content from being indexed, unintentional use of \"noindex\" on important pages can severely impact visibility and organic traffic."
+          "consequence": "Pages with a \"noindex\" meta robots tag are crawled but excluded from search results. This is useful for blocking low-value or duplicate content; however, applying it unintentionally to important pages can severely damage visibility and organic traffic."
         },
         {
           "id": "0c977858-6fce-4c37-af6f-af63c9b2a751",
