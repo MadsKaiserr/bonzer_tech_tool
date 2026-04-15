@@ -75,11 +75,6 @@
           "id": "739b699f-ab2e-422d-8c78-6c65557df4df",
           "issue": "Multiple canonical URLs",
           "consequence": "When a page contains multiple canonical tags, search engines receive mixed signals about which version of the page should be treated as the primary one. This can lead to indexing errors, diluted ranking signals, and search engines ignoring the canonical instructions altogether. As a result, duplicate or incorrect versions of the page may appear in search results, negatively impacting SEO performance and consistency in search visibility."
-        },
-        {
-          "id": "10093d69-993f-44b9-af74-74c0f8a31410",
-          "issue": "Multiple hreflang entries",
-          "consequence": "Multiple hreflang entries for the same language/region confuse search engines about which page version to serve users in that locale. This creates conflicting international targeting signals, potentially causing search engines to ignore the hreflang tags entirely."
         }
       ]
     },
