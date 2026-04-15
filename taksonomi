@@ -138,6 +138,11 @@
           "id": "7e64808b-d89c-4cb1-a19e-a9376e14a3a0",
           "issue": "Site exists in multiple languages, but are missing hreflang tags",
           "consequence": "Having no hreflang tags is a major issue when it comes to indexability for multi-lingual sites, as not having these, makes it likely that a site may get marked as spammy, since there are multiple pages with effectively the same content. Hreflang tags aside from this, also help promote an even distribution of link equity across translated pages in a group, and help search engines direct searchers to a page that fits their language or locale."
+        },
+        {
+          "id": "5554ce38-af09-41e7-bfa3-69efa0f36788",
+          "issue": "Multiple hreflang entries",
+          "consequence": "Multiple hreflang entries for the same language/region confuse search engines about which page version to serve users in that locale. This creates conflicting international targeting signals, potentially causing search engines to ignore the hreflang tags entirely."
         }
       ]
     },
