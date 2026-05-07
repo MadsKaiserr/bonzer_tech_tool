@@ -75,6 +75,11 @@
           "id": "739b699f-ab2e-422d-8c78-6c65557df4df",
           "issue": "Multiple canonical URLs",
           "consequence": "When a page contains multiple canonical tags, search engines receive mixed signals about which version of the page should be treated as the primary one. This can lead to indexing errors, diluted ranking signals, and search engines ignoring the canonical instructions altogether. As a result, duplicate or incorrect versions of the page may appear in search results, negatively impacting SEO performance and consistency in search visibility."
+        },
+        {
+          "id": "aa617b72-de29-4aa8-8ed8-a30ea6f01efe",
+          "issue": "Many pages have non-indexable canonical URLs",
+          "consequence": "When a page's canonical tag points to a URL that redirects, you're sending search engines mixed signals. The canonical says \"this is the authoritative version,\" but the redirect says \"actually, go somewhere else.\" This forces Google to choose between conflicting directives, often causing it to ignore your declared canonical and pick its own, which can split ranking signals across multiple URLs."
         }
       ]
     },
