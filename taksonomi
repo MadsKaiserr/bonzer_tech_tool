@@ -18,6 +18,11 @@
           "id": "3983af74-53a8-4217-b63e-0ff0153b4483",
           "issue": "Most pages have multiple H1 tags",
           "consequence": "While not as critical as a missing H1, having multiple H1 tags dilutes the primary heading's importance and creates a confusing semantic structure for both search engines and assistive technologies. This can weaken the page's topical focus, as search engines may struggle to determine which heading is the true main topic, potentially harming its ability to rank effectively for its target keywords."
+        },
+        {
+          "id": "42fa03ee-d2e7-4724-8a07-9d5f885e58b8",
+          "issue": "Pages with \"Lorem Ipsum\" placeholder text",
+          "consequence": "Lorem ipsum placeholder text on a live page signals to search engines that the content is unfinished, harming SEO rankings since there are no meaningful keywords to index. It also damages credibility with visitors, increasing bounce rates and reducing conversions."
         }
       ]
     },
