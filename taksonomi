@@ -23,6 +23,11 @@
           "id": "42fa03ee-d2e7-4724-8a07-9d5f885e58b8",
           "issue": "Pages with \"Lorem Ipsum\" placeholder text",
           "consequence": "Lorem ipsum placeholder text on a live page signals to search engines that the content is unfinished, harming SEO rankings since there are no meaningful keywords to index. It also damages credibility with visitors, increasing bounce rates and reducing conversions."
+        },
+        {
+          "id": "d768f75c-8a45-44d5-99d3-dae31c536bb0",
+          "issue": "Missing page titles on many pages",
+          "consequence": "Page titles are one of the most critical on-page SEO signals; without them, search engines struggle to understand the primary topic of a page, and Google will often auto-generate a title, which means less control over how you appear in SERP to your potential clients.\n"
         }
       ]
     },
