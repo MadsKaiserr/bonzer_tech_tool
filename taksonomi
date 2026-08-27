@@ -28,6 +28,11 @@
           "id": "d768f75c-8a45-44d5-99d3-dae31c536bb0",
           "issue": "Missing page titles on many pages",
           "consequence": "Page titles are one of the most critical on-page SEO signals; without them, search engines struggle to understand the primary topic of a page, and Google will often auto-generate a title, which means less control over how you appear in SERP to your potential clients.\n"
+        },
+        {
+          "id": "e777ffc6-a011-43fb-84e9-e4e802fa9a14",
+          "issue": "There are no author profiles and author boxes on the articles",
+          "consequence": "The absence of author profiles prevents you from fully leveraging E-E-A-T (Experience, Expertise, Authoritativeness, and Trustworthiness) signals. Google uses author identification to verify the writer's credentials and reputation, which is crucial for ranking well, especially in competitive or informational niches. Without these boxes, the content appears anonymous, which hinders your ability to build topical authority and reduces user trust.\n"
         }
       ]
     },
