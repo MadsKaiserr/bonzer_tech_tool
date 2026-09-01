@@ -38,6 +38,11 @@
           "id": "d97702e3-a1df-4406-b308-f2fdade46a19",
           "issue": "Multiple Images Over 100KB",
           "consequence": "Large images can cause longer loading times, negatively impacting page performance and potentially leading to higher bounce rates. This harms the user experience and can negatively affect SEO, as search engines prioritize fast-loading pages. Optimizing images to smaller file sizes can improve both loading times and user engagement."
+        },
+        {
+          "id": "99140d37-da2a-4b2e-97f1-b6c54dcdf788",
+          "issue": "Most pages have multiple H1-tags, some are missing a H1-tag ",
+          "consequence": "This can confuse search engines, as they rely on a single, clear H1 tag to understand the main topic of a page. Multiple or missing H1 tags, as well as non-sequential ones, can negatively impact SEO by making it harder for search engines to properly index the page and determine its relevance, which may lead to lower rankings.\n"
         }
       ]
     },
