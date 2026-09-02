@@ -173,6 +173,11 @@
           "id": "5554ce38-af09-41e7-bfa3-69efa0f36788",
           "issue": "Multiple hreflang entries",
           "consequence": "Multiple hreflang entries for the same language/region confuse search engines about which page version to serve users in that locale. This creates conflicting international targeting signals, potentially causing search engines to ignore the hreflang tags entirely."
+        },
+        {
+          "id": "6f6807e8-3078-4da5-894f-dbc87bd517c3",
+          "issue": " Missing x-default hreflang tag on many pages",
+          "consequence": "Missing the x-default hreflang tag can lead to search engines serving an unintended language or regional version to users whose language or location is not explicitly targeted. This may negatively impact international SEO performance and user experience."
         }
       ]
     },
