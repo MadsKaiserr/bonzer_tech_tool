@@ -178,6 +178,11 @@
           "id": "6f6807e8-3078-4da5-894f-dbc87bd517c3",
           "issue": " Missing x-default hreflang tag on many pages",
           "consequence": "Missing the x-default hreflang tag can lead to search engines serving an unintended language or regional version to users whose language or location is not explicitly targeted. This may negatively impact international SEO performance and user experience."
+        },
+        {
+          "id": "383dc545-f7e5-4734-8ab1-505cc0b68441",
+          "issue": "The website is available in multiple languages, but not through having separate pages and using hreflang tags, but by using a dynamic translation on the frontend",
+          "consequence": "This method prevents the creation of separate, indexable URLs for each language. Search engines crawl and index the original content, as the translation happens dynamically in the user's browser. As a result, the site is unable to rank for non-English keywords and loses the ability to target international audiences effectively. Furthermore, the reliance on automated translation often results in low-quality content, leading to a poor user experience and negative engagement signals like high bounce rates, which can further harm SEO.\n"
         }
       ]
     },
