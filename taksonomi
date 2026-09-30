@@ -43,6 +43,11 @@
           "id": "99140d37-da2a-4b2e-97f1-b6c54dcdf788",
           "issue": "Most pages have multiple H1-tags, some are missing a H1-tag ",
           "consequence": "This can confuse search engines, as they rely on a single, clear H1 tag to understand the main topic of a page. Multiple or missing H1 tags, as well as non-sequential ones, can negatively impact SEO by making it harder for search engines to properly index the page and determine its relevance, which may lead to lower rankings.\n"
+        },
+        {
+          "id": "0062edbe-1401-45cf-8c30-436b7f564aea",
+          "issue": "A lot of the pages are considered low content pages",
+          "consequence": " A high percentage of low-content pages creates a severe, site-wide quality issue that significantly harms the entire domain's authority and search performance. Search engines like Google evaluate a website's overall quality, and a large volume of \"thin\" content signals that the site offers little value to users. This not only prevents the low-content pages themselves from ranking but also actively suppresses the search performance of your valuable, high-quality pages, as the entire site is judged negatively. This issue also wastes the site's crawl budget, as search engine bots spend finite resources indexing useless pages instead of your important content."
         }
       ]
     },
