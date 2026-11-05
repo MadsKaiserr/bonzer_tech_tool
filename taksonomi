@@ -209,6 +209,11 @@
           "id": "64b434a0-192f-42c0-b4d2-7e1265ed7b3f",
           "issue": "Inlinks to insecure HTTP versions of pages, instead of HTTPS",
           "consequence": "When your site links to HTTP rather than HTTPS versions of internal or external pages, you inadvertently weaken the security chain and degrade the user experience. For visitors, this often triggers browser \"Not Secure\" warnings or forced redirects, which can damage brand trust and increase bounce rates."
+        },
+        {
+          "id": "77d3c073-b88e-499a-b625-52e994dfe0ec",
+          "issue": "Images are missing alt attributes",
+          "consequence": "This significantly harms accessibility, as visually impaired users relying on screen readers cannot understand the content of the images. From an SEO perspective, it's a missed opportunity for search engines to understand the image's context, which negatively impacts the potential for the images to rank in image search and contribute to the page's topical relevance.\n"
         }
       ]
     }
